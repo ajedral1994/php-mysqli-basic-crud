@@ -14,12 +14,16 @@
 ---
 
 ## Method Chaining
-<p>
+
   Example of method chaining:
+  
   **Include and Instantiate Database Class first**
+  
   require_once('Database.php');
+  
   $db = new Database();
-</p>
+  
+
 
 
 **_Note:_** _For more feature requests please open up an issue._
