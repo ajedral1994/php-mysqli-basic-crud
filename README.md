@@ -38,6 +38,9 @@
   
   ### Specifying fields
   $result = $db->select('id, name')->from('user')->result(); // returns selected fields from user table
+  
+  ### Limiting results
+  $result = $db->select()->from('user')->limit(10)->result(); // returns 10 results only
 
   ### Looping results
   while($obj = $result->fetch_object()) {
@@ -46,8 +49,7 @@
     $obj->id;
   }
   
-  ### Limiting results
-  $result = $db->select()->from('user')->limit(10)->result(); // returns 10 results only
+  
   
   
 
