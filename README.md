@@ -11,4 +11,4 @@
 * UI modification
 * Integration of task runners or builders for css/js minifications
 ---
-**_Note:_** For more feature requests please open up an issue.
+**_Note:_** _For more feature requests please open up an issue._
