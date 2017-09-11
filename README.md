@@ -41,6 +41,7 @@
   
   ### Using where clause
   $id = 1;
+  
   $result = $db->select()->from('user)->where('id = '.$id.'')->result(); // returns a user with an id of 1
   
   ### Limiting results
