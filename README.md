@@ -6,7 +6,7 @@
 * Added method chaining
 ---
 ## Todos
-- [] Add more query builders
+- [ ] Add more query builders
   - [x] Select
   - [x] Where
   - [x] From
