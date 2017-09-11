@@ -5,6 +5,7 @@
 
   // Instantiate Database object
   $db = new Database();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,7 +19,7 @@
       <input type="text" name="name" value="">
       <input type="submit" name="add" value="add">
     </form>
-      <?php $result = $db->query("SELECT * FROM user"); while($obj = $result->fetch_object()) { ?>
+      <?php $result = $db->select()->from('user')->result(); while($obj = $result->fetch_object()) { ?>
 
         <table>
           <tbody>
