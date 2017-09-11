@@ -56,8 +56,19 @@
     
     $obj->name;
     $obj->id;
+    
   }
   
+  
+  ### Using raw queries
+  $result = $db->query("SELECT * FROM user"); // just use the query()
+
+   while($obj = $result->fetch_object()) {
+    
+    $obj->name;
+    $obj->id;
+    
+  }
   
   
   
