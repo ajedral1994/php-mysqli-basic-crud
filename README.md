@@ -24,6 +24,7 @@
 - [ ] Login with session
 - [ ] Namespaces
 - [ ] Autoloading classes using composer
+- [ ] Implementation of Model View Controller pattern
 ---
 
 ## Method Chaining
