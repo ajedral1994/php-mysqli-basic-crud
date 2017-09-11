@@ -11,12 +11,16 @@
   - [x] Where
   - [x] From
   - [x] Execute query
+  - [x] Limit
+  - [ ] Delete
+  - [ ] Update
+  - [ ] Join
 - [x] Method Chaining
-- [] Make use of AJAX for the CRUD part
-- [] Integrate simple pagination plugin using vanilla js or jquery
-- [] UI modification
-- [] Integration of task runners or builders for css/js minifications
-- [] More query builders for iterating result sets, etc.
+- [ ] Make use of AJAX for the CRUD part
+- [ ] Integrate simple pagination plugin using vanilla js or jquery
+- [ ] UI modification
+- [ ] Integration of task runners or builders for css/js minifications
+- [ ] More query builders for iterating result sets, etc.
 ---
 
 ## Method Chaining
@@ -41,7 +45,9 @@
     $obj->name;
     $obj->id;
   }
-
+  
+  ### Limiting results
+  $result = $db->select()->from('user')->limit(10)->result(); // returns 10 results only
   
   
 
