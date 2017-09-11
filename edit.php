@@ -17,7 +17,7 @@
     header('Location: index.php');
   }
 
-  $user = $db->query("SELECT name,id FROM user WHERE id = '$id'");
+  $user = $db->select('id, name')->from('user')->where('id = '.$id.'')->result();
   while($obj = $user->fetch_object()) {
     $u = $obj->name;
     $i = $obj->id;
