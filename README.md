@@ -7,10 +7,10 @@
 ---
 ## Todos
 - [] Add more query builders
--- [x] Select
--- [x] Where
--- [x] From
--- [x] Execute query
+  - [x] Select
+  - [x] Where
+  - [x] From
+  - [x] Execute query
 - [x] Method Chaining
 - [] Make use of AJAX for the CRUD part
 - [] Integrate simple pagination plugin using vanilla js or jquery
