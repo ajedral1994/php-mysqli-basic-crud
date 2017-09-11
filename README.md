@@ -4,7 +4,7 @@
 * Added a simple query builder that accepts SQL Queries
 * Includes a very basic CRUD operation
 ---
-## Todo
+## Todos
 * Add more query builders
 * Make use of AJAX for the CRUD part
 * Integrate simple pagination plugin using vanilla js or jquery
