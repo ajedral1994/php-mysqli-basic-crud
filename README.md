@@ -39,6 +39,10 @@
   ### Specifying fields
   $result = $db->select('id, name')->from('user')->result(); // returns selected fields from user table
   
+  ### Using where clause
+  $id = 1;
+  $result = $db->select()->from('user)->where('id = '.$id.'')->result(); // returns a user with an id of 1
+  
   ### Limiting results
   $result = $db->select()->from('user')->limit(10)->result(); // returns 10 results only
 
