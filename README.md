@@ -23,6 +23,21 @@
   
   $db = new Database();
   
+  ### Returning all fields
+  $result = $db->select()->from('user')->result(); //  return all fields from user table
+  
+  ### Specifying fields
+  $result = $db->select('id, name')->from('user')->result(); // returns selected fields from user table
+
+  ### Looping results
+  while($obj = $result->fetch_object()) {
+    
+    $obj->name;
+    $obj->id;
+  }
+
+  
+  
 
 
 
