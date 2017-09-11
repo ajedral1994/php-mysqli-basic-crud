@@ -6,11 +6,17 @@
 * Added method chaining
 ---
 ## Todos
-* Add more query builders
-* Make use of AJAX for the CRUD part
-* Integrate simple pagination plugin using vanilla js or jquery
-* UI modification
-* Integration of task runners or builders for css/js minifications
+- [] Add more query builders
+-- [x] Select
+-- [x] Where
+-- [x] From
+-- [x] Execute query
+- [x] Method Chaining
+- [] Make use of AJAX for the CRUD part
+- [] Integrate simple pagination plugin using vanilla js or jquery
+- [] UI modification
+- [] Integration of task runners or builders for css/js minifications
+- [] More query builders for iterating result sets, etc.
 ---
 
 ## Method Chaining
