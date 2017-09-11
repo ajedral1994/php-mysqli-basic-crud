@@ -22,6 +22,8 @@
 - [ ] Integration of task runners or builders for css/js minifications
 - [ ] More query builders for iterating result sets, etc.
 - [ ] Login with session
+- [ ] Namespaces
+- [ ] Autoloading classes using composer
 ---
 
 ## Method Chaining
